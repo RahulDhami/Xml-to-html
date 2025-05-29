@@ -16,6 +16,7 @@ function Router() {
   );
 }
 
+
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
@@ -31,5 +32,6 @@ function App() {
     </QueryClientProvider>
   );
 }
+
 
 export default App;
